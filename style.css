@@ -1,0 +1,35 @@
+body {
+    background-color: #ffcad4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+.container {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+h1 { color: #ff4d6d; }
+.buttons { margin-top: 20px; position: relative; height: 60px; }
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#yesButton { background-color: #ff4d6d; color: white; }
+#noButton { 
+    background-color: #888; 
+    color: white; 
+    position: absolute;
+    left: 60%;
+}
